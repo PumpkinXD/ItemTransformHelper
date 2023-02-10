@@ -169,9 +169,9 @@ public class MenuItemCameraTransforms
         printTransform(output, "gui", linkToHUDrenderer.itemCameraTransforms.gui);
         output.append(",\n");
         printTransform(output, "head", linkToHUDrenderer.itemCameraTransforms.head);
-        output.append("\n");
+        output.append(",\n");
         printTransform(output, "fixed", linkToHUDrenderer.itemCameraTransforms.fixed);
-        output.append("\n");
+        output.append(",\n");
         printTransform(output, "ground", linkToHUDrenderer.itemCameraTransforms.ground);
         output.append("\n}");
         System.out.println(output);
